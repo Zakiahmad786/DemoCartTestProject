@@ -21,7 +21,7 @@ public class BaseTest {
     @BeforeTest
     public void setup(){
         df=new DriverFactory();
-        prop=df.initProp();
+        //prop=df.initProp();
         driver=df.initDriver(prop);
         loginPage=new LoginPage(driver);
     }
